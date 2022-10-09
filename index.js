@@ -32,7 +32,7 @@ async function run() {
       return;
     }
 
-    const octokit = new github.getOctokit(githubToken);
+    const octokit = new github.GitHub(githubToken);
 
     // Suffix comment with hidden value to check for updating later.
     const commentIdSuffix = `\n\n\n<hidden purpose="for-rewritable-pr-comment-action-use" value="${commentId}"></hidden>`;
