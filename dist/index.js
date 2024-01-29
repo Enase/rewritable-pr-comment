@@ -28840,7 +28840,7 @@ exports.withCustomRequest = withCustomRequest;
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-const VERSION = "1.0.4";
+const VERSION = "1.0.0";
 
 /**
  * @param octokit Octokit instance
